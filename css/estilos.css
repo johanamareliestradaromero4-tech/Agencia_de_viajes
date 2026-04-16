@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+}
+
+/* LOGO EN ESQUINA */
+.logo-fijo {
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  z-index: 1000;
+}
+
+.logo-fijo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* MENÚ NORMAL */
+nav {
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fbbf24;
+}
+
+/* CONTENIDO */
+.contenido {
+  padding: 40px;
+  text-align: center;
+}
+
+/* INTRO */
+.intro h2 {
+  font-size: 35px;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* IMÁGENES */
+.img-box {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+}
+
+.img-box img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.img-box h3 {
+  margin: 10px 0 5px;
+}
+
+/* DESTINOS */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 220px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACTO */
+.contacto-box {
+  background: rgba(0,0,0,0.4);
+  padding: 25px;
+  border-radius: 15px;
+  width: 300px;
+  margin: auto;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+}
