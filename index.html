@@ -116,5 +116,17 @@
 
 <script src="js/script.js"></script>
 
+  <script>
+function mostrar(seccion) {
+  // Oculta todas las secciones con clase 'contenido'
+  document.querySelectorAll(".contenido").forEach(sec => {
+    sec.style.display = "none";
+  });
+
+  // Muestra solo la sección que seleccionaste
+  document.getElementById(seccion).style.display = "block";
+}
+</script>
+
 </body>
 </html>
