@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>Agencia de Viajes</title>
 
-  <link rel="stylesheet" href="estilos.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilos.css">
 
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -17,16 +18,16 @@
   <p>Tu mejor agencia de viajes</p>
 </header>
 
-<!-- LOGO SOLO -->
+<!-- LOGO -->
 <div class="logo-fijo">
   <img src="https://tse3.mm.bing.net/th/id/OIP.s9mjSCvLeVtDOoVh728s1QHaEZ?rs=1&pid=ImgDetMain&o=7&rm=3">
 </div>
 
 <!-- MENÚ -->
 <nav>
-  <a href="#" onclick="mostrar('inicio')">Inicio</a>
-  <a href="#" onclick="mostrar('destinos')">Destinos</a>
-  <a href="#" onclick="mostrar('contacto')">Contacto</a>
+  <a href="javascript:void(0)" onclick="mostrar('inicio')">Inicio</a>
+  <a href="javascript:void(0)" onclick="mostrar('destinos')">Destinos</a>
+  <a href="javascript:void(0)" onclick="mostrar('contacto')">Contacto</a>
 </nav>
 
 <!-- INICIO -->
@@ -36,7 +37,7 @@
     <h2>🌍 Descubre tu próximo destino</h2>
     <p>
       Viaja, explora y vive experiencias únicas alrededor del mundo.
-      Encuentra playas paradisíacas, ciudades increíbles y aventuras inolvidables.
+      Encuentra playas, ciudades y aventuras increíbles.
     </p>
   </div>
 
@@ -44,26 +45,20 @@
 
     <div class="img-box">
       <img src="https://tse1.mm.bing.net/th/id/OIP.5BklelWEDpCwb-eTPUF0kgHaEb?rs=1&pid=ImgDetMain&o=7&rm=3">
-      <h3>⛰️ Aventuras extremas</h3>
-      <p>Relájate en los destinos más hermosos del mundo.</p>
+      <h3>⛰️ Aventuras</h3>
+      <p>Explora lugares llenos de emoción.</p>
     </div>
 
     <div class="img-box">
       <img src="https://blog.vivaaerobus.com/wp-content/uploads/2019/12/Mejores-Playas-de-Canc%C3%BAn.jpg">
-      <h3>🏝️ Playas paradisíacas</h3>
-      <p>Vive experiencias llenas de adrenalina.</p>
+      <h3>🏝️ Playas</h3>
+      <p>Relájate en destinos paradisíacos.</p>
     </div>
 
     <div class="img-box">
       <img src="https://img.freepik.com/premium-photo/photo-portrait-young-beautiful-travel-couple-husband-wife-smiling-take-selfie_763111-180801.jpg">
-      <h3>💑 Viajes en pareja</h3>
-      <p>Momentos románticos en lugares increíbles.</p>
-    </div>
-
-    <div class="img-box">
-      <img src="https://traveler.marriott.com/es/wp-content/uploads/sites/2/2023/07/GI-1311161568-Family-Hike-1920x1080.jpg">
-      <h3>👨‍👩‍👧 Viajes en familia</h3>
-      <p>Disfruta experiencias inolvidables con tus seres queridos.</p>
+      <h3>💑 Parejas</h3>
+      <p>Momentos únicos con quien más quieres.</p>
     </div>
 
   </div>
@@ -72,29 +67,30 @@
 
 <!-- DESTINOS -->
 <section id="destinos" class="contenido" style="display:none;">
-  <h2>Destinos Populares</h2>
+  <h2>Nuestros Destinos Populares</h2>
 
   <div class="cards">
 
     <div class="card">
       <img src="https://parisexploration.com/wp-content/uploads/2025/05/What-to-do-in-Paris-at-night-1024x585.jpg">
-      <h3>París</h3>
-      <p>La ciudad del amor</p>
+      <h3>París, Francia</h3>
+      <p>La ciudad del amor.</p>
     </div>
 
     <div class="card">
-      <img src="https://th.bing.com/th/id/R.0f53ed369da1070580d7bad568e6b472?rik=UGQpgdLokt8CQg&riu=http%3a%2f%2fimg.felicesvacaciones.es%2f2016%2f07%2f22%2fcancun.jpg&ehk=EY1h%2f9PmunB%2b2AmolAK1bscXumcOPdqeSPzIGE5IFTU%3d&risl=&pid=ImgRaw&r=0">
-      <h3>Cancún</h3>
-      <p>Playas hermosas</p>
+      <img src="https://blog.vivaaerobus.com/wp-content/uploads/2019/12/Mejores-Playas-de-Canc%C3%BAn.jpg">
+      <h3>Cancún, México</h3>
+      <p>Playas increíbles.</p>
     </div>
 
     <div class="card">
       <img src="https://image.urlaubspiraten.de/1024/image/upload/v1603288184/mediavault_images/gaf4wre0zmzobfp0ppfn.jpg">
       <h3>Japón</h3>
-      <p>Cultura increíble</p>
+      <p>Cultura y tradición.</p>
     </div>
 
   </div>
+
 </section>
 
 <!-- CONTACTO -->
@@ -102,19 +98,34 @@
   <h2>Contáctanos</h2>
 
   <div class="contacto-box">
-    <p>📞 Teléfono: 477-123-4567</p>
-    <p>📧 Correo: viajes@gmail.com</p>
-    <p>📍 Dirección: León, Guanajuato</p>
+    <p>📍 León, Guanajuato</p>
+    <p>📧 viajes@gmail.com</p>
+    <p>📞 477-123-4567</p>
     <p>📱 Instagram: @viajes</p>
-    <p>💬 WhatsApp: 477-000-0000</p>
   </div>
+
 </section>
 
+<!-- FOOTER -->
 <footer>
   <p>© 2026 Agencia de Viajes</p>
 </footer>
 
-<script src="script.js"></script>
+<!-- SCRIPT -->
+<script>
+function mostrar(seccion) {
+  const secciones = document.querySelectorAll(".contenido");
+
+  secciones.forEach(sec => {
+    sec.style.display = "none";
+  });
+
+  const seccionAMostrar = document.getElementById(seccion);
+  if (seccionAMostrar) {
+    seccionAMostrar.style.display = "block";
+  }
+}
+</script>
 
 </body>
 </html>
